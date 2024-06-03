@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Request model for the API
+# Request model for the AP
 class GraphRequest(BaseModel):
     api_url: str
 
